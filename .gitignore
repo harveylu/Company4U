@@ -81,4 +81,5 @@ secrets.yml
 .gradletasknamecache
 .sts4-cache
 
-./apache-tomcat-9.0.19
+apache-tomcat-9.0.19
+target
