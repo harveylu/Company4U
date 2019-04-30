@@ -76,12 +76,12 @@
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
             <div class="col-md-8 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
-                <p class="d-flex align-items-center" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                    <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center mr-3">
-                        <span class="ion-ios-play play mr-2"></span>
-                        <span class="watch">Watch Video</span>
-                    </a>
-                </p>
+                <%--<p class="d-flex align-items-center" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">--%>
+                    <%--<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center mr-3">--%>
+                        <%--<span class="ion-ios-play play mr-2"></span>--%>
+                        <%--<span class="watch">Watch Video</span>--%>
+                    <%--</a>--%>
+                <%--</p>--%>
                 <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We are passionate to provide you with more career information.</h1>
                 <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Join us and find out which company fits you the most!</p>
             </div>
@@ -182,8 +182,8 @@
                     <div class="item">
                         <div class="project">
                             <div class="img">
-                                <img src="${pageContext.request.contextPath}/resources/images/project-1.jpg" class="img-fluid" alt="Colorlib Template">
-                                <a href="${pageContext.request.contextPath}/resources/images/project-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                <img src="${pageContext.request.contextPath}/resources/images/overview.png" class="img-fluid" alt="Colorlib Template">
+                                <a href="${pageContext.request.contextPath}/resources/images/overview.png" class="icon image-popup d-flex justify-content-center align-items-center">
                                     <span class="icon-expand"></span>
                                 </a>
                             </div>
@@ -196,8 +196,8 @@
                     <div class="item">
                         <div class="project">
                             <div class="img">
-                                <img src="${pageContext.request.contextPath}/resources/images/project-2.jpg" class="img-fluid" alt="Colorlib Template">
-                                <a href="${pageContext.request.contextPath}/resources/images/project-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                <img src="${pageContext.request.contextPath}/resources/images/carrer-opportunity.png" class="img-fluid" alt="Colorlib Template">
+                                <a href="${pageContext.request.contextPath}/resources/images/carrer-opportunity.png" class="icon image-popup d-flex justify-content-center align-items-center">
                                     <span class="icon-expand"></span>
                                 </a>
                             </div>
@@ -210,8 +210,8 @@
                     <div class="item">
                         <div class="project">
                             <div class="img">
-                                <img src="${pageContext.request.contextPath}/resources/images/project-3.jpg" class="img-fluid" alt="Colorlib Template">
-                                <a href="${pageContext.request.contextPath}/resources/images/project-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                <img src="${pageContext.request.contextPath}/resources/images/comp-benefit.png" class="img-fluid" alt="Colorlib Template">
+                                <a href="${pageContext.request.contextPath}/resources/images/comp-benefit.png" class="icon image-popup d-flex justify-content-center align-items-center">
                                     <span class="icon-expand"></span>
                                 </a>
                             </div>
@@ -224,8 +224,8 @@
                     <div class="item">
                         <div class="project">
                             <div class="img">
-                                <img src="${pageContext.request.contextPath}/resources/images/project-4.jpg" class="img-fluid" alt="Colorlib Template">
-                                <a href="${pageContext.request.contextPath}/resources/images/project-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                <img src="${pageContext.request.contextPath}/resources/images/culture-values.png" class="img-fluid" alt="Colorlib Template">
+                                <a href="${pageContext.request.contextPath}/resources/images/culture-values.png" class="icon image-popup d-flex justify-content-center align-items-center">
                                     <span class="icon-expand"></span>
                                 </a>
                             </div>
@@ -238,8 +238,8 @@
                     <div class="item">
                         <div class="project">
                             <div class="img">
-                                <img src="${pageContext.request.contextPath}/resources/images/project-5.jpg" class="img-fluid" alt="Colorlib Template">
-                                <a href="${pageContext.request.contextPath}/resources/images/project-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                <img src="${pageContext.request.contextPath}/resources/images/senior-management.png" class="img-fluid" alt="Colorlib Template">
+                                <a href="${pageContext.request.contextPath}/resources/images/senior-management.png" class="icon image-popup d-flex justify-content-center align-items-center">
                                     <span class="icon-expand"></span>
                                 </a>
                             </div>
@@ -252,8 +252,8 @@
                     <div class="item">
                         <div class="project">
                             <div class="img">
-                                <img src="${pageContext.request.contextPath}/resources/images/project-6.jpg" class="img-fluid" alt="Colorlib Template">
-                                <a href="${pageContext.request.contextPath}/resources/images/project-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                <img src="${pageContext.request.contextPath}/resources/images/work-balance.png" class="img-fluid" alt="Colorlib Template">
+                                <a href="${pageContext.request.contextPath}/resources/images/work-balance.png" class="icon image-popup d-flex justify-content-center align-items-center">
                                     <span class="icon-expand"></span>
                                 </a>
                             </div>
@@ -272,55 +272,6 @@
 
 <footer class="ftco-footer ftco-section">
     <div class="container">
-        <div class="row mb-5">
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Square</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                        <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4 ml-md-4">
-                    <h2 class="ftco-heading-2">Links</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Services</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Architectural Design</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Interior Design</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Exterior Design</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Lighting Design</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>AutoCAD Service</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Have a Questions?</h2>
-                    <div class="block-23 mb-3">
-                        <ul>
-                            <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="row">
             <div class="col-md-12 text-center">
                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
