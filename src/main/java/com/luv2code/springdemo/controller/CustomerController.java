@@ -24,14 +24,38 @@ public class CustomerController {
 	
 	@GetMapping("/list")
 	public String listCustomers(Model theModel) {
-		
+
 		// get customers from the service
 		List<Customer> theCustomers = customerService.getCustomers();
-				
+
 		// add the customers to the model
 		theModel.addAttribute("customers", theCustomers);
-		
+
 		return "list-customers";
+	}
+
+	@GetMapping("/sample")
+	public String SamplePage(Model theModel) {
+
+		// get customers from the service
+		List<Customer> theCustomers = customerService.getCustomers();
+
+		// add the customers to the model
+		theModel.addAttribute("customers", theCustomers);
+
+		return "sample";
+	}
+
+	@GetMapping("/single")
+	public String SinglePage(Model theModel) {
+
+		// get customers from the service
+		List<Customer> theCustomers = customerService.getCustomers();
+
+		// add the customers to the model
+		theModel.addAttribute("customers", theCustomers);
+
+		return "single";
 	}
 	
 	@GetMapping("/showFormForAdd")

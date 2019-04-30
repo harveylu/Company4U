@@ -3,6 +3,7 @@
 *.sonarj
 *.sw*
 .DS_Store
+./*/Ds_Store
 .settings
 .springBeans
 bin
