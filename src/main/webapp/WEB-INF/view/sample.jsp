@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -135,7 +136,10 @@
                             <span class="subheading">Your Preference</span>
                             <h3>Input your ranking(From 1 to 5)</h3>
                         </div>
-                        <form action="#" class="request-form ftco-animate">
+                        <%--<form:form method="GET"--%>
+                                   <%--action="/company/predict" class="request-form ftco-animate" modelAttribute="employee">--%>
+                        <form:form method="POST"
+                                   action="predict" class="request-form ftco-animate">
                             <%--work balance, culture values, career opportunities, company benefit, senior managemen--%>
                             <div class="form-group">
                                 Work Balance: <input type="text" class="form-control" placeholder="(1 to 5)" name="1">
@@ -155,7 +159,7 @@
                             <div class="form-group">
                                 <input type="submit" value="Submit" class="btn btn-secondary py-3 px-4">
                             </div>
-                        </form>
+                        </form:form>
                     </div>
                 </div>
             </div>

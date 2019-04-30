@@ -1,6 +1,7 @@
 package com.luv2code.springdemo.controller;
 
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -94,6 +95,22 @@ public class CompanyController {
         theModel.addAttribute("customers", theCustomers);
 
         return "apple";
+    }
+
+    @PostMapping("/predict")
+    public String PredictPage(Model theModel) {
+        // get customers from the service
+        Map modelMap = theModel.asMap();
+        for (Object modelKey : modelMap.keySet()) {
+            Object modelValue = modelMap.get(modelKey);
+            System.out.println(modelKey + " -- " + modelValue);
+        }
+        // List<Customer> theCustomers = customerService.getCustomers();
+
+        // add the customers to the model
+        // theModel.addAttribute("customers", theCustomers);
+
+        return "sample";
     }
 }
 
