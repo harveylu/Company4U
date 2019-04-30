@@ -5,22 +5,24 @@
   </body>
 </html>
 
-University Name: San Jose State Univeristy http://www.sjsu.edu/
+# University Name: San Jose State Univeristy http://www.sjsu.edu/
 
-Course: Big Data Engineering and Analytics http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE266.html
+# Course: Big Data Engineering and Analytics http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE266.html
 
-Professor Sanjay Garje https://www.linkedin.com/in/sanjaygarje/
+# Professor Sanjay Garje https://www.linkedin.com/in/sanjaygarje/
 
-Student: Tianxiang Liu
-         Minglei Lu
-         Lu Yu
-         Ran Ma
+# Student: Tianxiang Liu, Minglei Lu, Lu Yu, Ran Ma
          
-Project Introduction: 
-Sample Demo Screenshots
-Pre-requisites Set Up
+# Project Introduction: 
+
+# Sample Demo Screenshots
+
+# Pre-requisites Set Up
 Here includes bullet point list of resources one need to configure in their cloud account. (E.g. For AWS: S3 buckets, EMR etc.)
-List of required software to download locally (E.g. Spring, JDK, Eclipse IDE etc.)
-Local configuration
-How to set up and kick-off project from developer sandbox?
+
+# List of required software to download locally (E.g. Spring, JDK, Eclipse IDE etc.)
+
+# Local configuration
+
+# How to set up and kick-off project from developer sandbox?
 Here include quick steps on how to compile and run your project on local machine (whichever you used, Mac or Windows either one).
