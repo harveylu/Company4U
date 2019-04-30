@@ -8,11 +8,12 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.luv2code.springdemo.service.CompanyService;
 
 @Controller
-@RequestMapping("/company")
+@RequestMapping("/")
 public class CompanyController {
 
 	// need to inject our company service
@@ -34,29 +35,8 @@ public class CompanyController {
 	public String getCompanyName(Model theModel) {
 		
 		// get the company name from our service
-		String theCompanyName = companyService.getCompanyName(24351);
+		String theCompanyName = companyService.getCompanyName(12345);
 		System.out.println("controller:" + theCompanyName);
-//		theCompanyName = theCompanyName.toString();
-//		return theCompanyName;
-		return "amazon";
-//		if(theCompanyName == "amazon") {
-//			return "amazon";
-//		} else {
-//			return "apple";
-//		}
-//		return theCompanyName;
-//		switch(theCompanyName)
-//		{
-//		   case "amazon" :
-//		      return "amazon";
-//		case "apple" :
-//		      return "apple";
-//		   case "microsoft":
-//			   return "microsoft";
-//		   case "google":
-//			   return "google";
-//		   default : 
-//			   return "amazon";
-//		}
+		return theCompanyName.trim();
 	}
 }
