@@ -5,12 +5,16 @@
   </body>
 </html>
 University Name: San Jose State Univeristy http://www.sjsu.edu/ 
+
 Course: Big Data Engineering and Analytics http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE266.html
+
 Professor Sanjay Garje https://www.linkedin.com/in/sanjaygarje/
+
 Student: Tianxiang Liu
          Minglei Lu
          Lu Yu
          Ran Ma
+         
 Project Introduction: 
 Sample Demo Screenshots
 Pre-requisites Set Up
