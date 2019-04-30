@@ -142,19 +142,19 @@
                                    action="predict" class="request-form ftco-animate">
                             <%--work balance, culture values, career opportunities, company benefit, senior managemen--%>
                             <div class="form-group">
-                                Work Balance: <input type="text" class="form-control" placeholder="(1 to 5)" name="1">
+                                Work Balance: <input type="text" class="form-control" placeholder="(1 to 5)" name="life">
                             </div>
                             <div class="form-group">
-                                Culture Values: <input type="text" class="form-control" placeholder="(1 to 5)" name="2">
+                                Culture Values: <input type="text" class="form-control" placeholder="(1 to 5)" name="culture">
                             </div>
                             <div class="form-group">
-                                Career Opportunities: <input type="text" class="form-control" placeholder="(1 to 5)" name="3">
+                                Career Opportunities: <input type="text" class="form-control" placeholder="(1 to 5)" name="opportunity">
                             </div>
                             <div class="form-group">
-                                Company Benefit: <input type="text" class="form-control" placeholder="(1 to 5)" name="4">
+                                Company Benefit: <input type="text" class="form-control" placeholder="(1 to 5)" name="benefit">
                             </div>
                             <div class="form-group">
-                                Senior Management: <input type="text" class="form-control" placeholder="(1 to 5)" name="5">
+                                Senior Management: <input type="text" class="form-control" placeholder="(1 to 5)" name="management">
                             </div>
                             <div class="form-group">
                                 <input type="submit" value="Submit" class="btn btn-secondary py-3 px-4">

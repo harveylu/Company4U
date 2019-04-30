@@ -2,17 +2,14 @@ package com.luv2code.springdemo.controller;
 
 import java.util.List;
 import java.util.Map;
-
+//import com.alibaba.fastjson.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import com.luv2code.springdemo.entity.Customer;
+import com.luv2code.springdemo.entity.userRanking;
 import com.luv2code.springdemo.service.CustomerService;
 
 @Controller
@@ -97,19 +94,21 @@ public class CompanyController {
         return "apple";
     }
 
+//    @PostMapping("/predict")
+//    public String PredictPage(@ModelAttribute("userRanking") userRanking formData){
+//        System.out.println(formData.toString());
+//        return "sample";
+//    }
+
     @PostMapping("/predict")
-    public String PredictPage(Model theModel) {
-        // get customers from the service
-        Map modelMap = theModel.asMap();
-        for (Object modelKey : modelMap.keySet()) {
-            Object modelValue = modelMap.get(modelKey);
-            System.out.println(modelKey + " -- " + modelValue);
+    public String getRecordList(@RequestBody String jsonData) {
+        System.out.println(jsonData);
+        StringBuilder digits = new StringBuilder();
+        for(int i = 0; i < jsonData.length(); i++){
+            if(jsonData.charAt(i) >= '0' && jsonData.charAt(i) <= '9') digits.append(jsonData.charAt(i));
         }
-        // List<Customer> theCustomers = customerService.getCustomers();
-
-        // add the customers to the model
-        // theModel.addAttribute("customers", theCustomers);
-
+        int input = Integer.valueOf(digits.toString());
+        System.out.println(input);
         return "sample";
     }
 }
