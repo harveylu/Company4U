@@ -53,7 +53,7 @@
     </div>
 </nav>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('${pageContext.request.contextPath}/resources/images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('${pageContext.request.contextPath}/resources/images/bg_google.jpg');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -71,7 +71,7 @@
         <div class="row">
             <div class="col-lg-8 order-lg-last ftco-animate">
                 <h2 class="mb-3">Google LLC</h2>
-                <p><a href="https://www.google.com">google.com</a>, Inc.
+                <p><a href="https://www.google.com">Google.com</a>, Inc.
                     is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies.
                 </p>
                 <p>

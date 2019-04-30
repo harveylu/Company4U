@@ -65,7 +65,6 @@
                 <%--<li class="nav-item"><a href="#" class="nav-link" data-nav-section="blog"><span>Blog</span></a></li>--%>
                 <%--<li class="nav-item"><a href="#" class="nav-link" data-nav-section="contact"><span>Contact</span></a></li>--%>
                 <%--<li class="nav-item cta"><a href="#" class="nav-link">Request a quote</a></li>--%>
-
             </ul>
         </div>
     </div>
@@ -118,7 +117,7 @@
                     <div class="media-body">
                         <h3 class="heading mb-3">Fast Service</h3>
                         <p>Our service is hosted on the Cloud powered by AWS. We guarantee fast services and relatively low respond delay when you choose our system.</p>
-                        <p><a href="#" class="btn btn-primary">Read more</a></p>
+                        <%--<p><a href="#" class="btn btn-primary">Read more</a></p>--%>
                     </div>
                 </div>
             </div>
@@ -133,39 +132,28 @@
                 <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(${pageContext.request.contextPath}/resources/images/about.jpg);">
                     <div class="request-quote py-5">
                         <div class="py-2">
-                            <span class="subheading">Be Part of our Business</span>
-                            <h3>Request A Quote</h3>
+                            <span class="subheading">Your Preference</span>
+                            <h3>Input your ranking(From 1 to 5)</h3>
                         </div>
                         <form action="#" class="request-form ftco-animate">
+                            <%--work balance, culture values, career opportunities, company benefit, senior managemen--%>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="First Name">
+                                Work Balance: <input type="text" class="form-control" placeholder="(1 to 5)" name="1">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Last Name">
+                                Culture Values: <input type="text" class="form-control" placeholder="(1 to 5)" name="2">
                             </div>
                             <div class="form-group">
-                                <div class="form-field">
-                                    <div class="select-wrap">
-                                        <div class="icon-arr"><span class="ion-ios-arrow-down"></span></div>
-                                        <select name="" id="" class="form-control">
-                                            <option value="">Select Your Services</option>
-                                            <option value="">Construction</option>
-                                            <option value="">Renovation</option>
-                                            <option value="">Interior Design</option>
-                                            <option value="">Exterior Design</option>
-                                            <option value="">Painting</option>
-                                        </select>
-                                    </div>
-                                </div>
+                                Career Opportunities: <input type="text" class="form-control" placeholder="(1 to 5)" name="3">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Phone">
+                                Company Benefit: <input type="text" class="form-control" placeholder="(1 to 5)" name="4">
                             </div>
                             <div class="form-group">
-                                <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+                                Senior Management: <input type="text" class="form-control" placeholder="(1 to 5)" name="5">
                             </div>
                             <div class="form-group">
-                                <input type="submit" value="Request A Quote" class="btn btn-secondary py-3 px-4">
+                                <input type="submit" value="Submit" class="btn btn-secondary py-3 px-4">
                             </div>
                         </form>
                     </div>
@@ -180,8 +168,8 @@
         <div class="row justify-content-center pb-5">
             <div class="col-md-12 heading-section text-center ftco-animate">
                 <span class="subheading">Accomplishments</span>
-                <h2 class="mb-4">Our Projects</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <h2 class="mb-4">Data Visualization</h2>
+                <p>We believe in that data will provide us more than what lies on the surface</p>
             </div>
         </div>
         <div class="row">
@@ -331,7 +319,6 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
-
                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
