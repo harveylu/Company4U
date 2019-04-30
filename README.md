@@ -4,16 +4,16 @@
     <p><a href="http://spring-crm-1.us-east-1.elasticbeanstalk.com/customer/list" rel="nofollow">Company4U</a> is a web application to recommend the best company for the users based on their inputs and company review data from Glassdoor.</p>
   </body>
 </html>
-University Name: San Jose State Univeristy http://www.sjsu.edu/
+University Name: [San Jose State Univeristy](http://www.sjsu.edu/)
 
-Course: Big Data Engineering and Analytics http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE266.html
+Course: [Big Data Engineering and Analytics](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE266.html)
 
-Professor Sanjay Garje https://www.linkedin.com/in/sanjaygarje/
+Professor [Sanjay Garje](https://www.linkedin.com/in/sanjaygarje/)
 
-Student: Tianxiang Liu
-         Minglei Lu
-         Lu Yu
-         Ran Ma
+Student: [Tianxiang Liu]()
+         [Minglei Lu]()
+         [Lu Yu]()
+         [Ran Ma]()
          
 Project Introduction: 
 Sample Demo Screenshots
