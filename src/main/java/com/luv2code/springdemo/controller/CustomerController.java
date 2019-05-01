@@ -43,7 +43,7 @@ public class CustomerController {
 		// add the customers to the model
 		theModel.addAttribute("customers", theCustomers);
 
-		return "sample";
+		return "home";
 	}
 
 	@GetMapping("/single")
@@ -55,7 +55,7 @@ public class CustomerController {
 		// add the customers to the model
 		theModel.addAttribute("customers", theCustomers);
 
-		return "single";
+		return "amazon";
 	}
 	
 	@GetMapping("/showFormForAdd")
@@ -73,7 +73,7 @@ public class CustomerController {
 	public String saveCustomer(@ModelAttribute("customer") Customer theCustomer) {
 		
 		// save the customer using our service
-		customerService.saveCustomer(theCustomer);	
+		customerService.saveCustomer(theCustomer);
 		
 		return "redirect:/customer/list";
 	}

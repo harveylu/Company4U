@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,7 +66,6 @@
                 <%--<li class="nav-item"><a href="#" class="nav-link" data-nav-section="blog"><span>Blog</span></a></li>--%>
                 <%--<li class="nav-item"><a href="#" class="nav-link" data-nav-section="contact"><span>Contact</span></a></li>--%>
                 <%--<li class="nav-item cta"><a href="#" class="nav-link">Request a quote</a></li>--%>
-
             </ul>
         </div>
     </div>
@@ -76,12 +76,12 @@
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
             <div class="col-md-8 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
-                <p class="d-flex align-items-center" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                    <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center mr-3">
-                        <span class="ion-ios-play play mr-2"></span>
-                        <span class="watch">Watch Video</span>
-                    </a>
-                </p>
+                <%--<p class="d-flex align-items-center" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">--%>
+                    <%--<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center mr-3">--%>
+                        <%--<span class="ion-ios-play play mr-2"></span>--%>
+                        <%--<span class="watch">Watch Video</span>--%>
+                    <%--</a>--%>
+                <%--</p>--%>
                 <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We are passionate to provide you with more career information.</h1>
                 <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Join us and find out which company fits you the most!</p>
             </div>
@@ -118,7 +118,7 @@
                     <div class="media-body">
                         <h3 class="heading mb-3">Fast Service</h3>
                         <p>Our service is hosted on the Cloud powered by AWS. We guarantee fast services and relatively low respond delay when you choose our system.</p>
-                        <p><a href="#" class="btn btn-primary">Read more</a></p>
+                        <%--<p><a href="#" class="btn btn-primary">Read more</a></p>--%>
                     </div>
                 </div>
             </div>
@@ -133,41 +133,33 @@
                 <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(${pageContext.request.contextPath}/resources/images/about.jpg);">
                     <div class="request-quote py-5">
                         <div class="py-2">
-                            <span class="subheading">Be Part of our Business</span>
-                            <h3>Request A Quote</h3>
+                            <span class="subheading">Your Preference</span>
+                            <h3>Input your ranking(From 1 to 5)</h3>
                         </div>
-                        <form action="#" class="request-form ftco-animate">
+                        <%--<form:form method="GET"--%>
+                                   <%--action="/company/predict" class="request-form ftco-animate" modelAttribute="employee">--%>
+                        <form:form method="POST"
+                                   action="predict" class="request-form ftco-animate">
+                            <%--work balance, culture values, career opportunities, company benefit, senior managemen--%>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="First Name">
+                                Work Balance: <input type="text" class="form-control" placeholder="(1 to 5)" name="life">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Last Name">
+                                Culture Values: <input type="text" class="form-control" placeholder="(1 to 5)" name="culture">
                             </div>
                             <div class="form-group">
-                                <div class="form-field">
-                                    <div class="select-wrap">
-                                        <div class="icon-arr"><span class="ion-ios-arrow-down"></span></div>
-                                        <select name="" id="" class="form-control">
-                                            <option value="">Select Your Services</option>
-                                            <option value="">Construction</option>
-                                            <option value="">Renovation</option>
-                                            <option value="">Interior Design</option>
-                                            <option value="">Exterior Design</option>
-                                            <option value="">Painting</option>
-                                        </select>
-                                    </div>
-                                </div>
+                                Career Opportunities: <input type="text" class="form-control" placeholder="(1 to 5)" name="opportunity">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Phone">
+                                Company Benefit: <input type="text" class="form-control" placeholder="(1 to 5)" name="benefit">
                             </div>
                             <div class="form-group">
-                                <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+                                Senior Management: <input type="text" class="form-control" placeholder="(1 to 5)" name="management">
                             </div>
                             <div class="form-group">
-                                <input type="submit" value="Request A Quote" class="btn btn-secondary py-3 px-4">
+                                <input type="submit" value="Submit" class="btn btn-secondary py-3 px-4">
                             </div>
-                        </form>
+                        </form:form>
                     </div>
                 </div>
             </div>
@@ -180,8 +172,8 @@
         <div class="row justify-content-center pb-5">
             <div class="col-md-12 heading-section text-center ftco-animate">
                 <span class="subheading">Accomplishments</span>
-                <h2 class="mb-4">Our Projects</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <h2 class="mb-4">Data Visualization</h2>
+                <p>We believe in that data will provide us more than what lies on the surface</p>
             </div>
         </div>
         <div class="row">
@@ -190,8 +182,8 @@
                     <div class="item">
                         <div class="project">
                             <div class="img">
-                                <img src="${pageContext.request.contextPath}/resources/images/project-1.jpg" class="img-fluid" alt="Colorlib Template">
-                                <a href="${pageContext.request.contextPath}/resources/images/project-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                <img src="${pageContext.request.contextPath}/resources/images/overview.png" class="img-fluid" alt="Colorlib Template">
+                                <a href="${pageContext.request.contextPath}/resources/images/overview.png" class="icon image-popup d-flex justify-content-center align-items-center">
                                     <span class="icon-expand"></span>
                                 </a>
                             </div>
@@ -204,8 +196,8 @@
                     <div class="item">
                         <div class="project">
                             <div class="img">
-                                <img src="${pageContext.request.contextPath}/resources/images/project-2.jpg" class="img-fluid" alt="Colorlib Template">
-                                <a href="${pageContext.request.contextPath}/resources/images/project-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                <img src="${pageContext.request.contextPath}/resources/images/carrer-opportunity.png" class="img-fluid" alt="Colorlib Template">
+                                <a href="${pageContext.request.contextPath}/resources/images/carrer-opportunity.png" class="icon image-popup d-flex justify-content-center align-items-center">
                                     <span class="icon-expand"></span>
                                 </a>
                             </div>
@@ -218,8 +210,8 @@
                     <div class="item">
                         <div class="project">
                             <div class="img">
-                                <img src="${pageContext.request.contextPath}/resources/images/project-3.jpg" class="img-fluid" alt="Colorlib Template">
-                                <a href="${pageContext.request.contextPath}/resources/images/project-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                <img src="${pageContext.request.contextPath}/resources/images/comp-benefit.png" class="img-fluid" alt="Colorlib Template">
+                                <a href="${pageContext.request.contextPath}/resources/images/comp-benefit.png" class="icon image-popup d-flex justify-content-center align-items-center">
                                     <span class="icon-expand"></span>
                                 </a>
                             </div>
@@ -232,8 +224,8 @@
                     <div class="item">
                         <div class="project">
                             <div class="img">
-                                <img src="${pageContext.request.contextPath}/resources/images/project-4.jpg" class="img-fluid" alt="Colorlib Template">
-                                <a href="${pageContext.request.contextPath}/resources/images/project-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                <img src="${pageContext.request.contextPath}/resources/images/culture-values.png" class="img-fluid" alt="Colorlib Template">
+                                <a href="${pageContext.request.contextPath}/resources/images/culture-values.png" class="icon image-popup d-flex justify-content-center align-items-center">
                                     <span class="icon-expand"></span>
                                 </a>
                             </div>
@@ -246,8 +238,8 @@
                     <div class="item">
                         <div class="project">
                             <div class="img">
-                                <img src="${pageContext.request.contextPath}/resources/images/project-5.jpg" class="img-fluid" alt="Colorlib Template">
-                                <a href="${pageContext.request.contextPath}/resources/images/project-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                <img src="${pageContext.request.contextPath}/resources/images/senior-management.png" class="img-fluid" alt="Colorlib Template">
+                                <a href="${pageContext.request.contextPath}/resources/images/senior-management.png" class="icon image-popup d-flex justify-content-center align-items-center">
                                     <span class="icon-expand"></span>
                                 </a>
                             </div>
@@ -260,8 +252,8 @@
                     <div class="item">
                         <div class="project">
                             <div class="img">
-                                <img src="${pageContext.request.contextPath}/resources/images/project-6.jpg" class="img-fluid" alt="Colorlib Template">
-                                <a href="${pageContext.request.contextPath}/resources/images/project-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+                                <img src="${pageContext.request.contextPath}/resources/images/work-balance.png" class="img-fluid" alt="Colorlib Template">
+                                <a href="${pageContext.request.contextPath}/resources/images/work-balance.png" class="icon image-popup d-flex justify-content-center align-items-center">
                                     <span class="icon-expand"></span>
                                 </a>
                             </div>
@@ -280,58 +272,8 @@
 
 <footer class="ftco-footer ftco-section">
     <div class="container">
-        <div class="row mb-5">
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Square</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                        <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4 ml-md-4">
-                    <h2 class="ftco-heading-2">Links</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Services</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Architectural Design</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Interior Design</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Exterior Design</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Lighting Design</a></li>
-                        <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>AutoCAD Service</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Have a Questions?</h2>
-                    <div class="block-23 mb-3">
-                        <ul>
-                            <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="row">
             <div class="col-md-12 text-center">
-
                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
