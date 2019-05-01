@@ -51,7 +51,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-        <a class="navbar-brand" href="/"><span>C4U.</span></a>
+        <a class="navbar-brand" href="/"><span>Company4U</span></a>
         <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>
@@ -82,8 +82,8 @@
                         <%--<span class="watch">Watch Video</span>--%>
                     <%--</a>--%>
                 <%--</p>--%>
-                <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We are passionate to provide you with more career information.</h1>
-                <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Join us and find out which company fits you the most!</p>
+                <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Predict the company fits you most based on big data and machine learning.</h1>
+                <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Fill in your ranking for different criteria and find out which company fits you the most!</p>
             </div>
         </div>
     </div>
@@ -96,8 +96,8 @@
                 <div class="media block-6 services text-center d-block">
                     <div class="icon"><span class="flaticon-layers"></span></div>
                     <div class="media-body">
-                        <h3 class="heading mb-3">Better Decisions</h3>
-                        <p>We provide company recommendations based on your preference. More detailed requirements will be available soon!</p>
+                        <h3 class="heading mb-3">Big Data</h3>
+                        <p>Our recommendations are based on millions of users reviews of their companies on Glassdoor.</p>
                         <%--<p><a href="#" class="btn btn-primary">Read more</a></p>--%>
                     </div>
                 </div>
@@ -106,8 +106,8 @@
                 <div class="media block-6 services text-center d-block">
                     <div class="icon"><span class="flaticon-compass-symbol"></span></div>
                     <div class="media-body">
-                        <h3 class="heading mb-3">Reasons Behind</h3>
-                        <p>Our recommendations are based on various users reviews of those companies. Almost every valid users reviews are taken into consideration.</p>
+                        <h3 class="heading mb-3">Machine Learning</h3>
+                        <p>Machine Learning technology is used to train models to make prediction based on incoming input.</p>
                         <%--<p><a href="#" class="btn btn-primary">Read more</a></p>--%>
                     </div>
                 </div>
@@ -116,8 +116,8 @@
                 <div class="media block-6 services text-center d-block">
                     <div class="icon"><span class="flaticon-layers"></span></div>
                     <div class="media-body">
-                        <h3 class="heading mb-3">Fast Service</h3>
-                        <p>Our service is hosted on the Cloud powered by AWS. We guarantee fast services and relatively low respond delay when you choose our system.</p>
+                        <h3 class="heading mb-3">Better Decision</h3>
+                        <p>We provide company recommendations based on your preference for each critieria of a company.</p>
                         <%--<p><a href="#" class="btn btn-primary">Read more</a></p>--%>
                     </div>
                 </div>
@@ -133,8 +133,8 @@
                 <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(${pageContext.request.contextPath}/resources/images/about.jpg);">
                     <div class="request-quote py-5">
                         <div class="py-2">
-                            <span class="subheading">Your Preference</span>
-                            <h3>Input your ranking(From 1 to 5)</h3>
+                            <span class="subheading">Please fill in your preference for each criteria differently. 5 means the most important for you.</span>
+                            <h3>Your Preference</h3>
                         </div>
                         <%--<form:form method="GET"--%>
                                    <%--action="/company/predict" class="request-form ftco-animate" modelAttribute="employee">--%>
@@ -171,9 +171,9 @@
     <div class="container-fluid px-md-5">
         <div class="row justify-content-center pb-5">
             <div class="col-md-12 heading-section text-center ftco-animate">
-                <span class="subheading">Accomplishments</span>
-                <h2 class="mb-4">Data Visualization</h2>
-                <p>We believe in that data will provide us more than what lies on the surface</p>
+
+                <h2 class="mb-4">Source Data Visualization from AWS QuickSight</h2>
+                <p>We believe in that data will provide us more than what lies on the surface. </p>
             </div>
         </div>
         <div class="row">
@@ -202,7 +202,7 @@
                                 </a>
                             </div>
                             <div class="text px-4">
-                                <h3><a href="#">Average Career Opportunity Rating</a></h3>
+                                <h3><a href="#">Career Opportunity Rating</a></h3>
                                 
                             </div>
                         </div>
@@ -216,7 +216,7 @@
                                 </a>
                             </div>
                             <div class="text px-4">
-                                <h3><a href="#">Average Company Benefit Rating</a></h3>
+                                <h3><a href="#">Company Benefit Rating</a></h3>
                                 
                             </div>
                         </div>
@@ -230,7 +230,7 @@
                                 </a>
                             </div>
                             <div class="text px-4">
-                                <h3><a href="#">Average Culture Values Rating</a></h3>
+                                <h3><a href="#">Culture Values Rating</a></h3>
                                 
                             </div>
                         </div>
@@ -244,7 +244,7 @@
                                 </a>
                             </div>
                             <div class="text px-4">
-                                <h3><a href="#">Average Senior Management Rating</a></h3>
+                                <h3><a href="#">Senior Management Rating</a></h3>
                                 
                             </div>
                         </div>
@@ -258,7 +258,7 @@
                                 </a>
                             </div>
                             <div class="text px-4">
-                                <h3><a href="#">Average Work-Life Balance Rating</a></h3>
+                                <h3><a href="#">Work-Life Balance Rating</a></h3>
                                
                             </div>
                         </div>
