@@ -27,10 +27,13 @@
 * AWS RDS
 * AWS EC2/Elastic Beanstalk
 
+### Local Software:
+* Java Spring
+* Intellij IDE
+* Tomcat
 
-### List of required software to download locally (E.g. Spring, JDK, Eclipse IDE etc.)
+### Local configuration:
 
-### Local configuration
 
 ### How to set up and kick-off project from developer sandbox?
 Here include quick steps on how to compile and run your project on local machine (whichever you used, Mac or Windows either one).
