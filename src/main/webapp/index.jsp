@@ -1,1 +1,1 @@
-<% response.sendRedirect("customer/showFormForAdd"); %>
+<% response.sendRedirect("company/home"); %>

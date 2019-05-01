@@ -188,8 +188,8 @@
                                 </a>
                             </div>
                             <div class="text px-4">
-                                <h3><a href="#">Office Interior Design</a></h3>
-                                <span>Interior Design</span>
+                                <h3><a href="#">Count of Reviews by Company</a></h3>
+                                
                             </div>
                         </div>
                     </div>
@@ -202,8 +202,8 @@
                                 </a>
                             </div>
                             <div class="text px-4">
-                                <h3><a href="#">Office Interior Design</a></h3>
-                                <span>Interior Design</span>
+                                <h3><a href="#">Average Career Opportunity Rating</a></h3>
+                                
                             </div>
                         </div>
                     </div>
@@ -216,8 +216,8 @@
                                 </a>
                             </div>
                             <div class="text px-4">
-                                <h3><a href="#">Office Interior Design</a></h3>
-                                <span>Interior Design</span>
+                                <h3><a href="#">Average Company Benefit Rating</a></h3>
+                                
                             </div>
                         </div>
                     </div>
@@ -230,8 +230,8 @@
                                 </a>
                             </div>
                             <div class="text px-4">
-                                <h3><a href="#">Office Interior Design</a></h3>
-                                <span>Interior Design</span>
+                                <h3><a href="#">Average Culture Values Rating</a></h3>
+                                
                             </div>
                         </div>
                     </div>
@@ -244,8 +244,8 @@
                                 </a>
                             </div>
                             <div class="text px-4">
-                                <h3><a href="#">Office Interior Design</a></h3>
-                                <span>Interior Design</span>
+                                <h3><a href="#">Average Senior Management Rating</a></h3>
+                                
                             </div>
                         </div>
                     </div>
@@ -258,8 +258,8 @@
                                 </a>
                             </div>
                             <div class="text px-4">
-                                <h3><a href="#">Office Interior Design</a></h3>
-                                <span>Interior Design</span>
+                                <h3><a href="#">Average Work-Life Balance Rating</a></h3>
+                               
                             </div>
                         </div>
                     </div>
@@ -275,7 +275,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </div>
         </div>
