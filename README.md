@@ -17,11 +17,16 @@
 - Company recommendation based on user’s input.
 + Stream new reviews to S3 to modify model with new data.
 
-### Sample Demo Screenshots
+### Sample Demo Screenshots: 
 
-### Pre-requisites Set Up:
-         AWS S3, AWS Glue, AWS QuickSight, AWS SageMaker, AWS RDS, AWS EC2
-Here includes bullet point list of resources one need to configure in their cloud account. (E.g. For AWS: S3 buckets, EMR etc.)
+### Cloud Configuration:
+* AWS S3 buckets 
+* AWS Glue 
+* AWS QuickSight 
+* AWS SageMaker
+* AWS RDS
+* AWS EC2/Elastic Beanstalk
+
 
 ### List of required software to download locally (E.g. Spring, JDK, Eclipse IDE etc.)
 
