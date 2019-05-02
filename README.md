@@ -18,6 +18,16 @@
 + Stream new reviews to S3 to modify model with new data.
 
 ### Sample Demo Screenshots: 
+#### Homepage Part 1
+![alt text](https://github.com/harveylu/Company4U/blob/master/images/Picture1.png?raw=true)
+#### Homepage Part 2
+![alt text](https://github.com/harveylu/Company4U/blob/master/images/Picture2.png?raw=true)
+#### Homepage Part 3
+![alt text](https://github.com/harveylu/Company4U/blob/master/images/Picture3.png?raw=true)
+#### Company Prediction: Amazon (user input: 12345)
+![alt text](https://github.com/harveylu/Company4U/blob/master/images/Picture4.png?raw=true)
+#### Company Prediciton: Apple (user input: 14235)
+![alt text](https://github.com/harveylu/Company4U/blob/master/images/Picture5.png?raw=true)
 
 ### Cloud Configuration:
 * AWS S3 buckets 
@@ -28,7 +38,8 @@
 * AWS EC2/Elastic Beanstalk
 
 ### Local Software:
-* Java Spring
+* Java 
+* Spring
 * Intellij IDE
 * Tomcat
 
