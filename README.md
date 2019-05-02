@@ -7,7 +7,7 @@
 
 ### Professor: [Sanjay Garje](https://www.linkedin.com/in/sanjaygarje/)
 
-### Student: Tianxiang Liu, Minglei Lu, [Lu Yu](https://www.linkedin.com/in/lu-yu/), [Ran Ma](https://www.linkedin.com/in/ran-ma-1bb532b3/)
+### Student: [Tianxiang Liu](https://www.linkedin.com/in/tianxiang-liu-48645bb8/), [Minglei Lu](https://www.linkedin.com/in/minglei-lu/), [Lu Yu](https://www.linkedin.com/in/lu-yu/), [Ran Ma](https://www.linkedin.com/in/ran-ma-1bb532b3/)
          
 ### Project Introduction:
 [Company4U](http://spring-crm-1.us-east-1.elasticbeanstalk.com/company/home) is a web application to recommend the best company for the users based on their inputs and company review data from Glassdoor. The rating data is from Glassdoor, ranging from the overall rating, work-life balance, benefit, culture, management and etc. Data visualization of detailed employee reviews for popular companies including Google, Amazon, Facebook, Apple, Microsoft, and Netflix will be displayed.  After the user inputs his/her expectations of different categories for the employer, the application will suggest the best fit among six companies based on the machine learning model and calculation. For further step, we expect to stream new reviews to S3 to modify and improve the model with additional data.
