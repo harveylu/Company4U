@@ -40,7 +40,7 @@
 ### Local Software and configuration:
 * JDK 8
 * Spring Framework 5.0
-* Eclipse 4.11.0
+* Eclipse 4.11.0/ IntelliJ
 * Apache-tomcat 9.0.19
 
 ### How to set up and kick-off project from developer sandbox?
