@@ -37,14 +37,15 @@
 * AWS RDS
 * AWS EC2/Elastic Beanstalk
 
-### Local Software:
-* Java 
-* Spring
-* Intellij IDE
-* Tomcat
-
-### Local configuration:
-
+### Local Software and configuration:
+* JDK 8
+* Spring Framework 5.0
+* Eclipse 4.11.0
+* Apache-tomcat 9.0.19
 
 ### How to set up and kick-off project from developer sandbox?
-Here include quick steps on how to compile and run your project on local machine (whichever you used, Mac or Windows either one).
+* Import the preject through Maven
+* Make sure Tomcat server runtime environment is enabled in Eclipse
+* Set up a Tomcat server for running this project
+* Select the project and run as the Tomcat server previously setup
+
